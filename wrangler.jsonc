@@ -1,0 +1,15 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "header-auditor",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-04-01",
+	"ai": {
+		"binding": "AI"
+	},
+	"kv_namespaces": [
+		{
+			"binding": "CACHE",
+			"id": "4b3aa4895b0d42779d5063f3b8e40b80"
+		}
+	]
+}
